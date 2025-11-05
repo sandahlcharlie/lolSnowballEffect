@@ -6,7 +6,9 @@ This is the final project for the stat 311 course at Metro State University for 
 Most Recent Filtered Dataset:
 (data/filteredData.csv)
 
-The data and script to filter it as well as the most recent output is in (data/). The 2025 Leage of Legends esports match data is in (data/league2025/) because the script takes in a folder as an input and scans for .csv files. It will ask for the input folder as well as an output folder. 
+The data is from (https://oracleselixir.com/tools/downloads) and hosted on (https://drive.google.com/drive/u/1/folders/1gLSw0RLjBbtaNy0dgnGQDAZOHIgCe-HH). We are using the data from 2025.
+The script to filter it as well as the most recent output is in (data/). 
+The script will ask for the input folder as well as an output folder. 
 !MAKE SURE OUTPUT FOLDER IS DIFFERENT THAN INPUT FOLDER!
 If not it will keep adding the output.csv to the next one, increasing the rows and messing with the data. I will have to fix this in the future. 
 
