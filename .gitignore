@@ -50,3 +50,7 @@ rsconnect/
 
 # macOS Finder files
 .DS_Store
+
+# python venv
+.venv
+pyrightconfig.json
