@@ -54,3 +54,4 @@ rsconnect/
 # python venv
 .venv
 pyrightconfig.json
+dat
