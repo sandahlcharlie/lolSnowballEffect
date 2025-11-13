@@ -32,14 +32,16 @@ keeperTeams = [  "Bilibili Gaming", "CTBC Flying Oyster", "FlyQuest", "G2 Esport
 
 print("This program imports a csv from Oracles Elixer and filters for teams in Worlds 2025 and independent variables realted to snowballing.")
 inputFile = input("What is the path of your input csv: ")
-outputFile = input("Where is the output path:")
+outputFile = input("Where is the output path: ")
 allowedExt = ['.csv']
 
 # make sure the inputs is allowed and not the same as the output
 validate_io(inputFile, outputFile, allowedExt)
 
 #read and filter csv
-df = pd.read_csv(inputFile)
+df = pd.read_csv(inputFile, low_memory=False)
 df = df[(df['datacompleteness'] == 'complete') & (df['position'] == 'team') & (df['teamname'].isin(keeperTeams))]
 df = df[keeperCols]
+outputFile = os.path.join(outputFile, 'filteredData.csv')
+
 df.to_csv(outputFile, index=False)

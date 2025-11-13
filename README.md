@@ -9,10 +9,12 @@ Most Recent Filtered Dataset:
 The data is from [Oracle’s Elixir](https://oracleselixir.com/tools/downloads)  
 and hosted on [Google Drive](https://drive.google.com/drive/u/1/folders/1gLSw0RLjBbtaNy0dgnGQDAZOHIgCe-HH).
 We are using the data from 2025.
-The script to filter it as well as the most recent output is in (data/). 
-The script will ask for the input folder as well as an output folder. 
-!MAKE SURE OUTPUT FOLDER IS DIFFERENT THAN INPUT FOLDER!
-If not it will keep adding the output.csv to the next one, increasing the rows and messing with the data. I will have to fix this in the future. 
 
+# Filter script
+***datasetFilter.R is DEPRECIATED, please use filter.py***
+
+Run filter.py in python in a terminal or IDE.
+The script is to filter Oracle's Elixer data to only keep teams that are in Worlds 2025 from the 2025 esports season. It also sorts for only columns that are relevent to our regression analysis.  
+The script will ask for the input file and an output folder to save a file called 'filteredData.csv'.
 
 
