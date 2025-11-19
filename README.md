@@ -17,4 +17,4 @@ Run filter.py in python in a terminal or IDE.
 The script is to filter Oracle's Elixer data to only keep teams that are in Worlds 2025 from the 2025 esports season. It also sorts for only columns that are relevent to our regression analysis.  
 The script will ask for the input file and an output folder to save a file called 'filteredData.csv'.
 
-
+There is also an expaneded filter that does not filter out teams. I found some winning bias in the original dataset using only worlds teams. There is also a expanded dataset with all teams and the independent variable columns we chose.
