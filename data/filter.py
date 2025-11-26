@@ -21,10 +21,7 @@ keeperCols = [  "gameid", "side", "result","teamname",
   "golddiffat10", "xpdiffat10", "csdiffat10",
   "killsat10","assistsat10","deathsat10",
   "goldat10","xpat10","csat10",
-  "goldat20","xpat20","csat20",
-  "golddiffat15", "xpdiffat15", "csdiffat15",
-  "killsat15","assistsat15","deathsat15",
-  "goldat15","xpat15","csat15",
+  "goldat20",
   "firsttower", "firstdragon","firstherald", "firstblood", "turretplates"]
 
 

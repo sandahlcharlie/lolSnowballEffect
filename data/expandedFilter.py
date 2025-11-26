@@ -18,12 +18,11 @@ def validate_io(data, finalData, allowedExt):
 
 # variables that are the filters
 keeperCols = [  "gameid", "side", "result","teamname",
-  "kills", "deaths", "assists", "team kpm", "ckpm", "gspd",
-  "dpm", "cspm","earned gpm", "vspm",
+  "golddiffat10", "xpdiffat10", "csdiffat10",
+  "killsat10","assistsat10","deathsat10",
   "goldat10","xpat10","csat10",
-  "goldat20","xpat20","csat20",
-  "firsttower", "firstdragon","firstherald", "firstblood"]
-
+  "goldat20",
+  "firsttower", "firstdragon","firstherald", "firstblood", "turretplates"]
 
 print("This program imports a csv from Oracles Elixer and filters for teams in Worlds 2025 and independent variables realted to snowballing.")
 inputFile = input("What is the path of your input csv: ")
