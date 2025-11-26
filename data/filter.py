@@ -18,11 +18,9 @@ def validate_io(data, finalData, allowedExt):
 
 # variables that are the filters
 keeperCols = [  "gameid", "side", "result","teamname",
-  "golddiffat10", "xpdiffat10", "csdiffat10",
-  "killsat10","assistsat10","deathsat10",
   "goldat10","xpat10","csat10",
   "goldat20",
-  "firsttower", "firstdragon","firstherald", "firstblood", "turretplates"]
+  "firsttower", "firstdragon","firstherald", "firstblood"]
 
 keeperTeams = [  "Bilibili Gaming", "CTBC Flying Oyster", "FlyQuest", "G2 Esports", "Gen.G",
   "Anyone's Legend", "Hanwha Life Esports", "Movistar KOI", "Secret Whales",
