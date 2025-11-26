@@ -40,6 +40,7 @@ validate_io(inputFile, outputFile, allowedExt)
 #read and filter csv
 df = pd.read_csv(inputFile, low_memory=False)
 df = df[(df['datacompleteness'] == 'complete') & (df['position'] == 'team') & (df['teamname'].isin(keeperTeams))]
+df = df[keeperCols]
 outputFile = os.path.join(outputFile, 'filteredData.csv')
 
 df.to_csv(outputFile, index=False)
